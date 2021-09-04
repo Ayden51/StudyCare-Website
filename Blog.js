@@ -3,5 +3,5 @@ let link = document.createElement("link");
 link.rel = "stylesheet";
 link.type = "text/css";
 link.href =
-  "https://cdn.jsdelivr.net/gh/phosphor-icons/phosphor-home@v1.3.1/src/components/SizeInput/SizeInput.css";
+  "https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website@v0.0.1-alpha/Blog.css";
 head.appendChild(link);
