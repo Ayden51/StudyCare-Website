@@ -1,0 +1,65 @@
+.article-main .article-content .rte {
+  font-family: Arial, "Cambria Math", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.article-main .article-content .rte h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-block-start: 0px;
+  margin-top: 0px;
+  color: #2980b9;
+}
+.article-main .article-content .rte h2,
+.article-main .article-content .rte h3 {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #ff0000;
+}
+.article-main .article-content .rte h3 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+.article-main .article-content .rte ol ul,
+.article-main .article-content .rte ul ul {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 4px;
+  font-weight: normal;
+}
+.article-main .article-content .rte ul ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.article-main .article-content .rte h2 + ol,
+.article-main .article-content .rte ol ol {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+  margin-left: 30px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.article-main .article-content .rte .eg-li {
+  margin-left: 15px;
+}
+.article-main .article-content .rte .quiz {
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #000000;
+}
+.article-main .article-content .rte p + ol,
+.article-main .article-content .rte h3 + ol,
+.article-main .article-content .rte .h3--ol {
+  list-style-type: lower-latin;
+  font-weight: normal;
+  margin-left: 40px;
+}
+.article-main .article-content .rte .footer-text {
+  line-height: 1.7;
+}
