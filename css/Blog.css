@@ -44,15 +44,6 @@
   margin-top: 0px;
   font-weight: bold;
 }
-.article-main .article-content .rte .eg-li {
-  margin-left: 15px;
-}
-.article-main .article-content .rte .quiz {
-  text-align: left;
-  margin-bottom: 8px;
-  margin-top: 16px;
-  color: #000000;
-}
 .article-main .article-content .rte p + ol {
   list-style-type: lower-latin;
   font-weight: normal;
@@ -63,4 +54,18 @@
   list-style-type: none;
   font-weight: normal;
   margin-left: 40px;
+}
+.eg-li {
+  margin-left: 15px;
+}
+.quiz {
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #000000;
+}
+.text-red-f00 {
+  color: #f00;
+}
+.fz-22 {
+  font-size: 22px;
 }
