@@ -55,17 +55,17 @@
   font-weight: normal;
   margin-left: 40px;
 }
-.eg-li {
+.article-main .article-content .rte .eg-li {
   margin-left: 15px;
 }
-.quiz {
+.article-main .article-content .rte .quiz {
   margin-bottom: 8px;
   margin-top: 16px;
   color: #000000;
 }
-.text-red-f00 {
+.article-main .article-content .rte .text-red-f00 {
   color: #f00;
 }
-.fz-22 {
+.article-main .article-content .rte .fz-22 {
   font-size: 22px;
 }
