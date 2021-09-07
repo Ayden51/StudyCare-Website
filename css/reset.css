@@ -1,0 +1,15 @@
+/* Reset css */
+body {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  padding: 0;
+}
+
+/* Atomic style for bootstrap */
+.text-center {
+  text-align: center;
+}

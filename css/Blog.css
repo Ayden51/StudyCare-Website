@@ -69,3 +69,13 @@
 .article-main .article-content .rte .fz-22 {
   font-size: 22px;
 }
+.article-main .article-content .rte span .MathJax {
+  font-size: 16px !important;
+}
+.article-main
+  .article-content
+  .rte
+  .inline-math
+  mjx-container[jax="CHTML"][display="true"] {
+  display: inline-block;
+}
