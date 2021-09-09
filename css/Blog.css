@@ -72,11 +72,10 @@
 .article-main .article-content .rte span .MathJax {
   font-size: 112.4% !important;
 }
-.article-main
-  .article-content
-  .rte
-  .inline-math
-  mjx-container[jax="CHTML"][display="true"] {
+.article-main .article-content .rte mjx-container[jax="CHTML"][display="true"] {
   display: inline-block;
   margin: 0;
+}
+.article-main .article-content .rte .block-math {
+  display: block;
 }
