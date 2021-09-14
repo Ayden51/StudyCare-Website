@@ -13,7 +13,6 @@
 }
 .article-main .article-content .rte h2,
 .article-main .article-content .rte h3 {
-  text-align: justify;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 4px;
@@ -38,11 +37,14 @@
 }
 .article-main .article-content .rte h2 + ol,
 .article-main .article-content .rte ol ol {
-  list-style-type: lower-alpha;
+  list-style-type: lower-latin;
   list-style-position: inside;
   margin-left: 30px;
   margin-top: 0px;
   font-weight: bold;
+}
+.article-main .article-content .rte ol ol {
+  list-style-type: decimal;
 }
 .article-main .article-content .rte p + ol {
   list-style-type: lower-latin;
@@ -79,11 +81,4 @@
   span
   mjx-container[jax="CHTML"][display="true"] {
   display: inline-block;
-}
-.article-main
-  .article-content
-  .rte
-  .block-math
-  mjx-container[jax="CHTML"][display="true"] {
-  display: block;
 }
