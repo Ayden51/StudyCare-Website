@@ -14,7 +14,6 @@
   }
   .article-main .article-content .rte h2,
   .article-main .article-content .rte h3 {
-    text-align: justify;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 4px;
@@ -33,17 +32,20 @@
     margin-top: 4px;
     font-weight: normal;
   }
-  .article-main .article-content .rte ul ul {
+  .article-main .article-content .rte ul > li > ul {
     list-style: disc;
     list-style-position: inside;
   }
   .article-main .article-content .rte h2 + ol,
   .article-main .article-content .rte ol ol {
-    list-style-type: lower-alpha;
+    list-style-type: lower-latin;
     list-style-position: inside;
     margin-left: 30px;
     margin-top: 0px;
     font-weight: bold;
+  }
+  .article-main .article-content .rte ol ol {
+    list-style-type: decimal;
   }
   .article-main .article-content .rte p + ol {
     list-style-type: lower-latin;
@@ -69,5 +71,16 @@
   }
   .article-main .article-content .rte .fz-22 {
     font-size: 22px;
+  }
+  .article-main .article-content .rte .MathJax {
+    font-size: 112.4% !important;
+    margin: 0;
+  }
+  .article-main
+    .article-content
+    .rte
+    span
+    mjx-container[jax="CHTML"][display="true"] {
+    display: inline-block;
   }
 </style>
