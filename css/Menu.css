@@ -6,11 +6,11 @@
   color: #000000;
 }
 .article-main .article-content .rte h1 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   margin-block-start: 0px;
   margin: 8px auto;
-  color: #2980b9;
+  color: #f00;
 }
 .article-main .article-content .rte h2 {
   font-size: 18px;
