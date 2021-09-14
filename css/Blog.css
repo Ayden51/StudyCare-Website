@@ -69,13 +69,21 @@
 .article-main .article-content .rte .fz-22 {
   font-size: 22px;
 }
-.article-main .article-content .rte span .MathJax {
+.article-main .article-content .rte .MathJax {
   font-size: 112.4% !important;
-}
-.article-main .article-content .rte mjx-container[jax="CHTML"][display="true"] {
-  display: inline-block;
   margin: 0;
 }
-.article-main .article-content .rte .block-math {
+.article-main
+  .article-content
+  .rte
+  span
+  mjx-container[jax="CHTML"][display="true"] {
+  display: inline-block;
+}
+.article-main
+  .article-content
+  .rte
+  .block-math
+  mjx-container[jax="CHTML"][display="true"] {
   display: block;
 }
