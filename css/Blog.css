@@ -31,7 +31,7 @@
   margin-top: 4px;
   font-weight: normal;
 }
-.article-main .article-content .rte ul li > ul {
+.article-main .article-content .rte ul > li > ul {
   list-style: disc;
   list-style-position: inside;
 }
