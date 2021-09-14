@@ -8,14 +8,14 @@
 .article-main .article-content .rte h1 {
   font-size: 24px;
   font-weight: bold;
-  margin-block-start: 0px;
+  margin-top: 0;
   margin: 8px auto;
   color: #f00;
 }
 .article-main .article-content .rte h2 {
   font-size: 18px;
   font-weight: bold;
-  margin-block-start: 0px;
+  margin-top: 0;
   margin: 8px auto;
   color: inherit;
 }
