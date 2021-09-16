@@ -4,6 +4,14 @@
   line-height: 1.5;
   color: #000000;
 }
+.article-main .article-content .rte main p {
+  color: inherit;
+}
+.article-main .article-content .rte .author {
+  text-align: right;
+  font-size: 14px;
+  color: #4e5f70;
+}
 .article-main .article-content .rte h1 {
   font-size: 18px;
   font-weight: bold;
@@ -24,8 +32,7 @@
   margin-bottom: 8px;
   color: #000000;
 }
-.article-main .article-content .rte ol ul,
-.article-main .article-content .rte ul ul {
+.article-main .article-content .rte :is(ol, ul) ul {
   list-style: none;
   margin-left: 30px;
   margin-top: 4px;
@@ -35,8 +42,7 @@
   list-style: disc;
   list-style-position: inside;
 }
-.article-main .article-content .rte h2 + ol,
-.article-main .article-content .rte ol ol {
+.article-main .article-content .rte h2 + ol {
   list-style-type: lower-latin;
   list-style-position: inside;
   margin-left: 30px;
@@ -45,6 +51,10 @@
 }
 .article-main .article-content .rte ol ol {
   list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 30px;
+  margin-top: 0;
+  font-weight: bold;
 }
 .article-main .article-content .rte p + ol {
   list-style-type: lower-latin;
