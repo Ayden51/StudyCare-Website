@@ -3,5 +3,5 @@ var link = document.createElement("link");
 link.rel = "stylesheet";
 link.type = "text/css";
 link.href =
-  "https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website@0.14/css/Blog.min.css";
+  "https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website@0.15/css/Blog.min.css";
 head.appendChild(link);
