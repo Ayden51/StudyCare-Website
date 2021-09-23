@@ -80,11 +80,23 @@
   justify-content: center;
   margin: 0;
 }
-.article-main .article-content .rte .text-red-f00 {
+.article-main .article-content .rte .text-red {
   color: #f00;
+}
+.article-main .article-content .rte .text-blue {
+  color: #2980b9;
+}
+.article-main .article-content .rte .text-gray {
+  color: #4e5f70;
 }
 .article-main .article-content .rte .fz-22 {
   font-size: 22px;
+}
+.article-main .article-content .rte .fz-18 {
+  font-size: 18px;
+}
+.article-main .article-content .rte .fz-14 {
+  font-size: 14px;
 }
 .article-main .article-content .rte .MathJax {
   font-size: 112.4% !important;
