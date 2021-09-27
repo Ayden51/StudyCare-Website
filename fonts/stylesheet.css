@@ -1,9 +1,7 @@
 @font-face {
   font-family: "EQsymbol";
-  src: url("https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website/fonts/EQsymbol.woff2")
-      format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website/fonts/EQsymbol.woff")
-      format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website/fonts/EQsymbol.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
