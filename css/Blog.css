@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "EQsymbol";
+  src: url("https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website/fonts/EQSymbol.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 .article-main .article-content .rte {
   font-family: Arial, "Cambria Math", Helvetica, sans-serif;
   font-size: 16px;
@@ -27,9 +34,11 @@
   margin-bottom: 8px;
   color: #000000;
 }
+.article-main .article-content .rte :is(ol, ul) {
+  margin-left: clamp(15px, 4vw, 30px);
+}
 .article-main .article-content .rte :is(ol, ul) ul {
   list-style: none;
-  margin-left: 30px;
   margin-top: 4px;
   font-weight: normal;
 }
@@ -40,27 +49,25 @@
 .article-main .article-content .rte h2 + ol {
   list-style-type: lower-latin;
   list-style-position: inside;
-  margin-left: 30px;
   margin-top: 0;
   font-weight: bold;
 }
 .article-main .article-content .rte ol ol {
   list-style-type: decimal;
   list-style-position: inside;
-  margin-left: 30px;
   margin-top: 0;
   font-weight: bold;
 }
 .article-main .article-content .rte p + ol {
   list-style-type: lower-latin;
   font-weight: normal;
-  margin-left: 40px;
+  margin-left: clamp(30px, 5.5vw, 40px);
 }
 .article-main .article-content .rte h3 + ol,
 .article-main .article-content .rte .h3--ol {
   list-style-type: none;
   font-weight: normal;
-  margin-left: 40px;
+  margin-left: clamp(30px, 5.5vw, 40px);
 }
 .article-main .article-content .rte .eg-li {
   margin-left: 15px;
@@ -102,10 +109,6 @@
   font-size: 112.4% !important;
   margin: 0;
 }
-.article-main
-  .article-content
-  .rte
-  span
-  mjx-container[jax="CHTML"][display="true"] {
+.article-main .article-content .rte span mjx-container[jax="CHTML"][display="true"] {
   display: inline-block;
 }
