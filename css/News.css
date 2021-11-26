@@ -2,20 +2,43 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #000;
+}
+.article-main .article-content .rte :is(h1, h2, h3, h4, h5, h6) {
+  color: #000;
 }
 .article-main .article-content .rte h1 {
   margin-top: 0;
-  font-size: 22px;
-  color: #2980b9;
 }
-.article-main .article-content .rte article p {
+article .article-main .article-content .rte p {
   margin-bottom: 1em;
-  color: #000000;
+  color: #000;
 }
-.article-main .article-content .rte article .img-desc {
+article .article-main .article-content .rte .img-desc {
   font-size: 14px;
   line-height: 1.7;
 }
-.article-main .article-content .rte article a {
+article .article-main .article-content .rte a {
   color: #2980b9;
+}
+.article-main .article-content .rte .text-red {
+  color: #f00;
+}
+.article-main .article-content .rte .text-blue {
+  color: #2980b9;
+}
+.article-main .article-content .rte .text-gray {
+  color: #4e5f70;
+}
+.article-main .article-content .rte .fz-22 {
+  font-size: 22px;
+}
+.article-main .article-content .rte .fz-18 {
+  font-size: 18px;
+}
+.article-main .article-content .rte .fz-16 {
+  font-size: 16px;
+}
+.article-main .article-content .rte .fz-14 {
+  font-size: 14px;
 }
