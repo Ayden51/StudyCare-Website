@@ -10,15 +10,15 @@
 .article-main .article-content .rte h1 {
   margin-top: 0;
 }
-article .article-main .article-content .rte p {
+article.article-main .article-content .rte p {
   margin-bottom: 1em;
   color: #000;
 }
-article .article-main .article-content .rte .img-desc {
+.article-main .article-content .rte .img-desc {
   font-size: 14px;
   line-height: 1.7;
 }
-article .article-main .article-content .rte a {
+article.article-main .article-content .rte a {
   color: #2980b9;
 }
 .article-main .article-content .rte .text-red {
