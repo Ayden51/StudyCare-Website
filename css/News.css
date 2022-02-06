@@ -6,9 +6,8 @@
 }
 .article-main .article-content .rte :is(h1, h2, h3, h4, h5, h6) {
   color: #000;
-}
-.article-main .article-content .rte h1 {
   margin-top: 0;
+  line-height: 0.8;
 }
 article.article-main .article-content .rte p {
   margin-bottom: 1em;
@@ -41,4 +40,21 @@ article.article-main .article-content .rte a {
 }
 .article-main .article-content .rte .fz-14 {
   font-size: 14px;
+}
+.article-main .article-content .rte .toc {
+  display: inline-block;
+  border: solid 1px #333;
+  background-color: #f3f6f3;
+  padding: 1.2em;
+  margin-bottom: 1em;
+}
+.article-main .article-content .rte .toc > div {
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+.article-main .article-content .rte .toc > ol {
+  padding-left: 40px;
+}
+.article-main .article-content .rte .toc > ol a {
+  color: #000;
 }
