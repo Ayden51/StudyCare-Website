@@ -58,3 +58,31 @@ article.article-main .article-content .rte a {
 .article-main .article-content .rte .toc > ol a {
   color: #000;
 }
+.article-main .article-content .rte div.download-btn a {
+  display: inline-block;
+  padding: 16px 27px;
+  margin: 10px auto 1em;
+  border-radius: 100rem;
+  color: white;
+  background-color: #1373b9;
+  font-size: 18px;
+  line-height: 1;
+  transition: all 150ms linear;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+.article-main .article-content .rte div.download-btn a:hover,
+.article-main .article-content .rte div.download-btn a:focus {
+  background-color: #16537e;
+}
+.article-main .article-content .rte .separator,
+.article-main .article-content .rte .separator span {
+  font-family: Wingdings;
+  text-align: center;
+}
