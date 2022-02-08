@@ -87,6 +87,7 @@ article.article-main .article-content .rte a {
 }
 .article-main .article-content .rte .news-table {
   max-width: 100%;
+  width: max-content;
   min-width: 100vh;
   margin: 0 auto;
 }
