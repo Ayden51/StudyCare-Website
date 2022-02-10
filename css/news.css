@@ -100,3 +100,12 @@ article.article-main .article-content .rte a {
   overflow-x: auto;
   overflow-y: hidden;
 }
+.pdf-viewer {
+  display: block;
+  height: 120vw;
+}
+@media screen and (min-width: 842px) {
+  .pdf-viewer {
+    height: 120vh;
+  }
+}
