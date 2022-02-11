@@ -1,17 +1,23 @@
+:root {
+  --font-color: #252525;
+  --border-color: #333;
+  --heading-color: #121212;
+  --grey: #f3f6f3;
+}
 .article-main .article-content .rte {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #252525;
+  color: var(--font-color);
 }
 .article-main .article-content .rte :is(h1, h2, h3, h4, h5, h6) {
-  color: #121212;
+  color: var(--heading-color);
   margin-top: 0;
   line-height: 0.8;
 }
 article.article-main .article-content .rte p {
   margin-bottom: 1em;
-  color: #252525;
+  color: var(--font-color);
 }
 .article-main .article-content .rte .img-desc {
   font-size: 14px;
@@ -43,8 +49,8 @@ article.article-main .article-content .rte a {
 }
 .article-main .article-content .rte .toc {
   display: inline-block;
-  border: solid 1px #333;
-  background-color: #f3f6f3;
+  border: solid 1px var(--border-color);
+  background-color: var(--grey);
   padding: 1.2em;
   margin-bottom: 1em;
 }
@@ -56,7 +62,7 @@ article.article-main .article-content .rte a {
   padding-left: 40px;
 }
 .article-main .article-content .rte .toc > ol a {
-  color: #252525;
+  color: var(--font-color);
 }
 .article-main .article-content .rte div.download-btn a {
   display: inline-block;
@@ -94,7 +100,48 @@ article.article-main .article-content .rte a {
 .article-main .article-content .rte .news-table th,
 .article-main .article-content .rte .news-table td {
   padding: 10px;
-  border-color: #252525;
+  border-color: var(--border-color);
+}
+.article-main .article-content .rte .news-table tbody tr {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.article-main .article-content .rte .news-table tr::before {
+  content: "Quay lại vị trí đang đọc";
+  position: absolute;
+  right: 0;
+  top: -40px;
+  z-index: -1;
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #1373b9;
+  color: white;
+  border: 1px solid var(--border-color);
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  transition: all 250ms linear;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+}
+.article-main .article-content .rte .news-table tbody tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 15px;
+}
+.article-main .article-content .rte .news-table tbody tr:hover::before {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px;
+  visibility: visible;
+  opacity: 1;
 }
 .article-main .article-content .rte figure.overflow-table {
   overflow-x: auto;
