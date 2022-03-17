@@ -3,12 +3,10 @@
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>
-			Học Tiếng Anh cùng ngoại truyện Harry Potter | StudyCare			
-		</title>
-		<link>https://studycare.edu.vn/hoc-tieng-anh-cung-ngoai-truyen-harry-potter</link>
-		<atom:link href="https://cdn.jsdelivr.net/gh/Ayden51/StudyCare-Website@0.25/feed.xml" rel="self" type="application/rss+xml"/>
-		<description>Cùng StudyCare học tiếng Anh thông qua bộ ngoại truyện của series tiểu thuyết đình đám - Harry Potter.</description>
+		<title>StudyCare Education</title>
+		<link>https://studycare.edu.vn/</link>
+		<atom:link href="https://ayden51.github.io/StudyCare-Website/feed.xml" rel="self" type="application/rss+xml"/>
+		<description>Bồi dưỡng Toán - Lý - Hóa - Sinh - Văn - Anh theo CT chuẩn Quốc Gia và CT Quốc Tế; Giảng dạy tiếng Anh IELTS-TOEIC-TOEFL và chứng chỉ Quốc Tế PTE-SAT-ACT-GMAT-GRE; Dịch thuật công chứng; Dịch vụ VISA Du học - Du lịch - Định cư; Xử lý dữ liệu các mô hình Toán trong nghiên cứu khoa học (Luận văn Thạc sĩ, Luận án Tiến sĩ)</description>
 		<copyright>© Bản quyền thuộc về StudyCare Education</copyright>
 		<language>vi</language>
 		<lastBuildDate>Wed, 16 Mar 2022 08:42:55 -0000</lastBuildDate>
@@ -23,6 +21,7 @@
 			<title>Học Tiếng Anh cùng ngoại truyện Harry Potter (Hồi 1)</title>
 			<link>https://studycare.edu.vn/hoc-tieng-anh-cung-ngoai-truyen-harry-potter-hoi-1</link>
 			<description>Học Tiếng Anh cùng ngoại truyện Harry Potter. Cùng tìm hiểu những từ vựng và ngữ pháp mới trong Hồi 1: Nhân vật bí ẩn.</description>
+			<category>Học Tiếng Anh cùng ngoại truyện Harry Potter</category>
 			<pubDate>Wed, 16 Mar 2022 08:42:55 -0000</pubDate>
 			<guid isPermaLink="false">https://studycare.edu.vn/hoc-tieng-anh-cung-ngoai-truyen-harry-potter-hoi-1</guid>
 			<enclosure length="532790" type="image/jpeg" url="https://bizweb.dktcdn.net/100/306/531/articles/hoc-tieng-anh-cung-ngoai-truyen-harry-potter-hoi-1.jpg?v=1644160985373"></enclosure>
@@ -32,6 +31,7 @@
 			<title>Ngữ Pháp Tiếng Anh trong ngoại truyện Harry Potter (Hồi 1)</title>
 			<link>https://studycare.edu.vn/ngu-phap-tieng-anh-ngoai-truyen-harry-potter-hoi-1</link>
 			<description>Cùng chúng tớ khám qua những điểm ngữ pháp tiếng Anh thú vị có trong ngoại truyện Harry Potter - Hồi 1: Nhân vật bí ẩn</description>
+			<category>Học Tiếng Anh cùng ngoại truyện Harry Potter</category>
 			<pubDate>Wed, 16 Mar 2022 08:27:55 -0000</pubDate>
 			<guid isPermaLink="false">https://studycare.edu.vn/ngu-phap-tieng-anh-ngoai-truyen-harry-potter-hoi-1</guid>
 			<enclosure length="373280" type="image/jpeg" url="https://bizweb.dktcdn.net/100/306/531/articles/ngu-phap-tieng-anh-trong-ngoai-truyen-harry-potter-hoi-1.jpg?v=1644332233813"></enclosure>
@@ -41,6 +41,7 @@
 			<title>Từ vựng Tiếng Anh trong ngoại truyện Harry Potter (Hồi 1)</title>
 			<link>https://studycare.edu.vn/tu-vung-tieng-anh-ngoai-truyen-harry-potter-hoi-1</link>
 			<description>Cùng chúng tớ khám qua những từ vựng tiếng Anh đáng nhớ có trong ngoại truyện Harry Potter - Hồi 1: Nhân vật bí ẩn</description>
+			<category>Học Tiếng Anh cùng ngoại truyện Harry Potter</category>
 			<pubDate>Wed, 16 Mar 2022 08:12:55 -0000</pubDate>
 			<guid isPermaLink="false">https://studycare.edu.vn/tu-vung-tieng-anh-ngoai-truyen-harry-potter-hoi-1</guid>
 			<enclosure length="524652" type="image/jpeg" url="https://bizweb.dktcdn.net/100/306/531/articles/tu-vung-tieng-anh-trong-ngoai-truyen-harry-potter-hoi-1.jpg?v=1644501165533"></enclosure>
@@ -50,6 +51,7 @@
 			<title>Ngoại truyện Harry Potter - Hồi 1: Nhân vật bí ẩn (Bản dịch)</title>
 			<link>https://studycare.edu.vn/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-vn</link>
 			<description>Học Tiếng Anh cùng ngoại truyện Harry Potter, Hồi 1: Nhân vật bí ẩn (bản dịch). Hành trình của Danny sẽ diễn ra như thế nào? Cùng theo dõi nhé.</description>
+			<category>Học Tiếng Anh cùng ngoại truyện Harry Potter</category>
 			<pubDate>Wed, 16 Mar 2022 07:57:55 -0000</pubDate>
 			<guid isPermaLink="false">https://studycare.edu.vn/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-vn</guid>
 			<enclosure length="514764" type="image/jpeg" url="https://bizweb.dktcdn.net/100/306/531/articles/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-ban-dich.jpg?v=1644176091193"></enclosure>
@@ -59,6 +61,7 @@
 			<title>Ngoại truyện Harry Potter - Hồi 1: Nhân vật bí ẩn (Bản gốc)</title>
 			<link>https://studycare.edu.vn/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-en</link>
 			<description>Học Tiếng Anh cùng ngoại truyện Harry Potter, Hồi 1: Nhân vật bí ẩn (Bản gốc). Danny sẽ gặp gỡ Harry Potter ra sao? Cùng theo dõi nhé.</description>
+			<category>Học Tiếng Anh cùng ngoại truyện Harry Potter</category>
 			<pubDate>Wed, 16 Mar 2022 07:42:55 -0000</pubDate>
 			<guid isPermaLink="false">https://studycare.edu.vn/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-en</guid>
 			<enclosure length="530276" type="image/jpeg" url="https://bizweb.dktcdn.net/100/306/531/articles/ngoai-truyen-harry-potter-hoi-1-nhan-vat-bi-an-ban-goc.jpg?v=1644178643397"></enclosure>
